@@ -14,7 +14,7 @@ const Home = () => {
                 software.
                 Currently, I love to work on web applications using
                 technologies like
-                React, Tailwind, Nextjs and GraphQl.
+                React, Tailwind, HTML,CSS,MySql,JavaScript.
             </p>
             <div>
                 <Link to="portfolio" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md 
