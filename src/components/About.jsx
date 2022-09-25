@@ -25,7 +25,7 @@ const About = () => {
         <br/>
 
         <p className='text-xl'>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium neque nisi accusamus porro laborum quis, enim numquam at incidunt quidem unde vitae. Dolore eius fugit explicabo dolor minus eum obcaecati sapiente, possimus molestiae, voluptatem est odit magni. Quisquam porro voluptatibus consequuntur fugiat, accusamus veritatis excepturi molestiae quos? Officia, perferendis explicabo.
+              I have also completed some certifications in C, C++,HTML,CSS,JavaScript. I am eager to work for a reputable organization that will allow me to put my engineering skills to good use.
         </p>
     </div>
 
