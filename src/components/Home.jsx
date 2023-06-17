@@ -2,6 +2,7 @@ import React from 'react'
 import HeroImage  from '../assets/heroImage.png';
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import {Link} from 'react-scroll'
+import IMG_2965 from '../assets/IMG_2965.jpeg';
 
 const Home = () => {
   return (
@@ -28,7 +29,7 @@ const Home = () => {
 
         </div>
         <div>
-            <img src={HeroImage} alt="my profile" className='rounded-2xl
+            <img src={IMG_2965} alt="my profile" className='rounded-2xl
             mx-auto w-2/3 md:w-full'/>
         </div>
        </div>
