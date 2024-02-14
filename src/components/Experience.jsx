@@ -7,6 +7,8 @@ import nextjs from '../assets/nextjs.png';
 import graphql from '../assets/graphql.png';
 import github from '../assets/github.png';
 import tailwind from '../assets/tailwind.png';
+import cpp from '../assets/c++.png';
+import mysql from '../assets/mysql.png';
 
 
 const Experience = () => {
@@ -44,15 +46,15 @@ const Experience = () => {
         },
         {
             id:6,
-            src:nextjs,
-            title:'NextJs',
+            src:mysql,
+            title:'My SQL',
             style:'shadow-white',
 
         },
         {
             id:7,
-            src: graphql,
-            title:'GraphQl',
+            src: cpp,
+            title:'C++',
             style:'shadow-pink-400',
         },
         {
