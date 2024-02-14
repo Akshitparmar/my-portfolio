@@ -6,33 +6,51 @@ import reactParallax from '../assets/portfolio/reactParallax.jpg'
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
 import reactWeather from '../assets/portfolio/reactWeather.jpg'
 
+import machinelearing from '../assets/portfolio/machinelearning.png'
+
+import myportfolio from '../assets/portfolio/myportfolio.jpeg'
+
+import drinkit from '../assets/portfolio/drinkitfillit.png'
+
+
+import taxidata from '../assets/portfolio/taxidata.png'
+
+import upcoming from '../assets/portfolio/upcoming.jpeg'
+
+
 
 const Portfolio = () => {
 
     const portfolios=[
         {
             id:1,
-            src:arrayDestruct,
+            src:machinelearing,
+            link:'https://github.com/Akshitparmar/The-Spark-Foundation-Task-Data-Science-internship',
         },
         {
             id:2,
-            src: reactParallax,
+            src: myportfolio,
+            link:'https://github.com/Akshitparmar/my-portfolio',
         },
         {
             id:3,
             src: navbar,
+            link:'https://github.com/Akshitparmar/The-Spark-Foundation-Task-Data-Science-internship',
         },
         {
             id:4,
-            src:reactSmooth,
+            src:drinkit,
+            link:'https://github.com/Akshitparmar/drinkitFillit',
         },
         {
             id:5,
-            src:installNode,
+            src:taxidata,
+            link:'https://github.com/Akshitparmar/taxi-pipeline-data-engineering-project',
         },
         {
             id:6,
-            src:reactWeather,
+            src:upcoming,
+            link:'',
         },
     ]
 
@@ -59,10 +77,10 @@ const Portfolio = () => {
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
 
             {
-                portfolios.map(({id,src})=>(
+                portfolios.map(({id,src,link})=>(
                     <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
 
-                    <img src={src} alt='' className='rounded-md duration-200 hover:scale-105'/>
+                 <a href={link} >  <img src={src} alt=''  className='rounded-md duration-200 hover:scale-105 '/> </a>
                     <div className='flex items-center justify-center'>
                         <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105' >Demo</button>
                         <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
